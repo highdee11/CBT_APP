@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="jquery-3.1.0.min.js"></script>
+	</head>
+	<body>
+		<button onclick="getdata()"> Get </button>
+		
+		<script>
+			function getdata()
+			{
+				$.post("test.txt",function(data){
+					console.log(data);
+				});
+			}
+		</script>
+	</body>
+</html>

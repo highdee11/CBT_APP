@@ -1,0 +1,275 @@
+.headerAdmin
+{
+    height:20%;
+    order:1px solid red;
+}
+.headerAdmin h2 
+{
+    color:#021629;
+    
+}
+.topMenu
+{
+    list-style-type: none;
+}
+.chosen-select
+{
+    width:100% !important;
+}
+ .chosen-container
+{
+    width:100% !important;
+}
+#Btnload.roll
+{
+    display: block;
+    border:1px solid transparent;
+    width:20px;
+    height:20px;
+    position: absolute;
+    border-radius: 50%;
+    border-top:1px solid white;
+    animation: spin .2s infinite linear;
+    -webkit-animation: spin .2s infinite linear;
+    -o-animation: spin .2s infinite linear;
+    -ms-animation: spin .2s infinite linear;
+    -moz-animation: spin .2s infinite linear;
+}
+
+@keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+}
+
+
+@-webkit-keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+}
+
+
+@-ms-keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+}
+
+
+@-o-keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+}
+
+
+@-moz-keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+}
+
+
+
+#screenLoader.show
+{
+	position:absolute;
+	z-index: 999;
+	display: block;
+	height:100%;
+	background:rgba(0,0,0,0.6);
+	width:100%;
+}
+#screenLoader .lod.start
+{
+	display: block;
+	position: absolute;
+	border: 3px solid transparent;
+	border-top:3px solid white;
+	border-radius: 50%;
+	width:70px;
+	height:70px;
+	top:40%;
+	left:50%;
+	 animation: spin .4s infinite linear;
+}
+#screenLoader .lodTxt
+{
+	top:51%;
+	left:50%;
+	position: absolute;
+	color:white;
+	font-weight:bold;
+}
+#generateModule
+{
+    box-shadow: 0px 0px 3px black;
+    padding:20px 0px;
+}
+
+
+.loader
+{
+	position:absolute;
+	background:rgba(255,255,255,0.4);
+	z-index:5;
+	order:1px solid red;
+	height:100%;
+	width:100%;
+	display:block;
+
+}
+.loaderBlock
+{
+	position: absolute;
+	display: block;
+	top:40%;
+	left:50%;
+	order:1px solid red;
+
+}
+.loaderBlock p
+{
+	font-weight: bold;
+}
+.loadercircle
+{
+	position:relative;
+	display: block;
+	width:50px;
+	height:50px;
+	border:3px solid gray;
+	border-top:4px dotted #14253e;
+	border-radius:50%;
+
+}
+.loadercircle.start
+{
+	-webkit-animation: spin .5s infinite linear ;
+	-ms-animation: spin .5s infinite linear ;
+	-o-animation: spin .5s infinite linear ;
+	-moz-animation: spin .5s infinite linear ;
+	 animation: spin .5s infinite linear ;
+}
+@keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+}
+@-webkit-keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+}
+@-moz-keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+}
+@-ms-keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+}
+@-o-keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+}
+.edit-table
+    {
+        box-shadow: 0px 0px 3px black;
+        padding-top: 10px;
+        height:100% !important;
+        overflow-y:scroll;
+}
+
+.np
+{
+    height: 100% !important;
+}
+.np2
+{
+    height:75% !important;
+}

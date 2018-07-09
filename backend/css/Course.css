@@ -1,0 +1,222 @@
+	.table-responsive
+{
+	height:600px;
+	overflow:scroll;
+}
+.page_title
+{
+	padding-left: 30px;
+	padding-top: 30px;
+	font-weight: bold;
+	font-size: 25px;
+}
+#add-board
+{
+	padding-left: 20px;
+}
+.board-form
+{
+
+}
+.loader
+{
+	position:absolute;
+	background:rgba(255,255,255,0.4);
+	z-index:5;
+	order:1px solid red;
+	height:100%;
+	width:100%;
+	display:block;
+
+}
+.loaderBlock
+{
+	position: absolute;
+	display: block;
+	top:40%;
+	left:50%;
+	order:1px solid red;
+
+}
+.loaderBlock p
+{
+	font-weight: bold;
+}
+.loadercircle
+{
+	position:relative;
+	display: block;
+	width:50px;
+	height:50px;
+	border:3px solid gray;
+	border-top:4px dotted #14253e;
+	border-radius:50%;
+
+}
+.loadercircle.start
+{
+	-webkit-animation: spin .5s infinite linear ;
+	-ms-animation: spin .5s infinite linear ;
+	 -o-animation: spin .5s infinite linear ;
+	 -moz-animation: spin .5s infinite linear ;
+	 animation: spin .5s infinite linear ;
+}
+@keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+}
+@-o-keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+}
+@-moz-keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+}
+@-webkit-keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+}
+@-ms-keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+}
+.feedBack
+{
+	margin-top:20px;
+	padding-top:20px !important;
+	font-weight: bold !important;
+}
+.help-block
+{
+	color:red !important;
+}
+.edit-board-well
+{
+
+}
+.status{
+	osition: absolute;
+	order:1px solid red;
+	float:left;
+	margin: 0px !important;
+	 padding:0px !important;
+}
+.load{
+	width:20px;
+	top:10%;
+	left: 90%;
+	height:20px;
+	content:'';
+	float:right;
+	 display: block;
+	 margin: 0px;
+	 margin-right:5px;
+	 osition: absolute;
+	 border:2px solid transparent;
+	 border-top:3px solid transparent;
+	 border-radius: 50%;
+
+}
+.start
+{
+
+	border:2px solid transparent;
+	border-top:3px solid red;
+	border-radius: 50%;
+	-webkit-animation: spin .2s infinite linear;
+	-ms-animation: spin .2s infinite linear;
+	 animation: spin .2s infinite linear;
+}
+.chkbx
+{
+	cursor:pointer;
+}
+
+.edit-table
+{
+	height:68% !important;
+	overflow-y:scroll;
+}
+
+
+#screenLoader.show
+{
+	position:absolute;
+	z-index: 999;
+	display: block;
+	height:100%;
+	background:rgba(0,0,0,0.6);
+	width:100%;
+}
+#screenLoader .lod.start
+{
+	display: block;
+	position: absolute;
+	border: 3px solid transparent;
+	border-top:3px solid white;
+	border-radius: 50%;
+	width:70px;
+	height:70px;
+	top:40%;
+	left:50%;
+	 -webkit-animation: spin .4s infinite linear;
+	 -ms-animation: spin .4s infinite linear;
+	 -moz-animation: spin .4s infinite linear;
+	 -o-animation: spin .4s infinite linear;
+	 animation: spin .4s infinite linear;
+}
+#screenLoader .lodTxt
+{
+	top:51%;
+	left:50%;
+	position: absolute;
+	color:white;
+	font-weight:bold;
+}
+

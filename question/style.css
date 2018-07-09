@@ -1,0 +1,333 @@
+html,body
+{
+    height:auto;
+    width:100%;
+    margin:0px;
+    padding:0px; 
+    overflow-x: hidden;
+}
+
+
+#body
+{
+    height:96%;
+    
+}
+
+#body .head 
+{
+    border-bottom:1px solid gray;
+    padding:10px;
+    margin-bottom:0px;
+}
+#body .head .logo img
+{
+    width:150px;
+     
+}
+.skulName 
+{
+    text-align: center;
+}
+.skulName h1
+{
+    font-weight: bold;
+    color: #1b396a;
+    font-family: serif;
+}
+.skulName .addr
+{
+    color: #711818;
+    font-size: 18px;
+}
+
+.n100
+{
+  height: 100% !important;
+}
+.np
+{
+  padding: 0px !important;
+}
+.nm
+{
+  margin:0px !important;
+}
+#body .header
+{
+  height:15%;
+  order:1px solid black;
+}
+#body .body
+{
+  height:84%;
+  order:1px solid black;
+  padding:20px;
+}
+.body .content
+{
+
+  eight:70%;
+  box-shadow: 0px 0px 1px black;
+}
+.body .bar
+{
+    padding-bottom: 20px;
+  box-shadow: 0px 0px 3px black;
+}
+
+.question
+{
+  font-size: 20px;
+  padding-bottom:20px;
+}
+.Qcontent
+{
+  padding-left: 0px;
+}
+.Qcontent .Qno
+{
+  margin-left: -14px !important;
+  padding: 0px ;
+}
+.Qcontent .Qno span
+{
+  argin-left: -10px !important;
+  font-size: 25px;
+  font-weight: lighter;
+  font-family: Yu Mincho Light;
+  display: block;
+  order:1px solid black;
+  text-align: left;
+  padding:10px;
+  width:220px;
+
+}
+
+.option
+{
+  margin-top: 20px;
+  order: 1px solid red;
+  padding-top: 10px;
+
+}
+.option ul
+{
+  list-style-type: none;
+}
+.option ul li
+{
+  box-shadow: 0px 0px 1px gray;
+  order:1px solid black;
+  width:100% !important;
+  padding:3px;
+  margin-bottom: 5px;
+}
+.option ul li label
+{
+  width:100% !important;
+}
+.option ul li:hover , .option ul li span
+{
+  cursor:pointer;
+}
+.controlls
+{
+    margin-top: 10px;
+  padding-bottom: 10px;
+}
+.bd
+{
+  height:92%;
+
+}
+
+#time
+{
+  padding-top: 10px !important;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid red;
+  adding:0px;
+}
+
+#selector ul
+{
+  list-style-type: none;
+  adding: 0px;
+}
+#selector ul li
+{
+
+  display: inline-block;
+  width:35px;
+  height:35px;
+  box-shadow: 0px 0px 1px  black;
+  text-align: center;
+  padding-top: 5px;
+  margin-bottom: 10px;
+  cursor:pointer;
+}
+
+
+
+#dark
+{
+    position: absolute;
+    z-index: 9999;
+    height: 100%;
+    width:100%;
+    background: white;
+    display: block;
+    padding: 0px;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom: 0px;
+    margin:auto auto;
+}
+
+#dark  .loader
+{
+    display:block;
+    height:50px;
+    width:50px;
+    border:2px solid red;
+    border-radius: 50%;
+    position: absolute;
+    margin:0 auto;
+    top:58%;
+    left:45%;
+    border-top:3px solid white;
+    animation:spin .5s infinite linear;
+    -webkit-animation:spin .5s infinite linear;
+    -ms-animation:spin .5s infinite linear;
+    -o-animation:spin .5s infinite linear;
+    -moz-animation:spin .5s infinite linear;
+}
+
+@keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg) ;
+	}
+
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+}
+@-webkit-keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg) ;
+	}
+
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+}
+@-ms-keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg) ;
+	}
+
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+}
+@-o-keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg) ;
+	}
+
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+}
+@-moz-keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg) ;
+	}
+
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+}
+#dark .logo
+{
+    position: absolute;
+    top:20%;
+    transition:all .3s linear;
+    order:1px solid red;
+}
+#dark .logo .skulName
+{
+    text-align: center;
+    font-size:15px; 
+}
+#dark .logo.moveup
+{
+    top:10% !important;
+}
+#dark .text
+{
+    position: absolute;
+     margin:0 auto;
+    top:69%;
+    left:44%;
+    font-weight: bold;
+}
+
+#continue
+{
+    margin-top: 90px !important;
+    display: block;
+    height:auto;
+    padding: 20px;
+    order:1px solid red;
+    position: absolute;
+    top:32%;
+    padding-top:30px;
+    box-shadow: 0px 0px 2px black;
+    
+}
+#msg
+{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.btn-test
+{
+    width: 100px;
+    border:1px solid white;
+    padding: 10px;
+    color:green;
+    font-weight: bold;
+    background: transparent;
+}
+.btn-bd
+{
+    order:1px solid #4a5c77 ;
+    box-shadow: 0px 0px 2px #4a5c77;
+}

@@ -1,0 +1,418 @@
+html,body
+    {
+        padding:0px;
+        margin:0px;
+        height: 100%;
+        width:100%;
+        
+        order:1px solid red;
+    }
+.row
+{
+    overflow-x: hidden !important;
+}
+#bk
+{
+    -moz-filter:blur(5px);
+    -ms-filter:blur(5px); 
+    -webkit-filter:blur(5px);
+    -o-filter:blur(5px);
+    filter: blur(5px);
+   position: absolute;
+    z-index: -2;
+    height: 100%;
+}
+
+#bkWhite
+{
+    background: white;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+#body
+{
+    height:96%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#body .head 
+{
+    border-bottom:1px solid gray;
+    padding:10px;
+    margin-bottom:0px;
+}
+#body .head .logo img
+{
+    width:150px;
+     
+}
+.skulName 
+{
+    text-align: center;
+}
+.skulName h1
+{
+    font-weight: bold;
+    color: #1b396a;
+    font-family: serif;
+}
+.skulName .addr
+{
+    color: #711818;
+    font-size: 18px;
+}
+
+.welcome 
+{
+    ext-align: center;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 3px black;
+    padding:5px;
+}
+.welcome b
+{
+    margin-top:6px;
+    padding: 5px;
+    text-align: center;
+    order:1px solid red;
+}
+
+#courses
+{
+    padding: 10px;
+    order:1px solid black;
+}
+#courses ul li 
+{
+    box-shadow: 0px 0px 2px black;
+    padding-top: 10px;
+    height:100px;
+    text-align: center;
+    font-family: sans-serif;
+    overflow: hidden;
+    font-weight: bold;
+    olor:  ;
+    font-size: 20px ;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background: white;
+  
+}
+#courses ul li:hover 
+{   
+    transform: scale(0.99);
+    cursor: pointer;
+     
+}
+#courses ul li:nth-child(1){ border-left:5px solid #00803b; ransition:all .7s ease;}
+#courses ul li:nth-child(2){ border-left:5px solid red ; ransition:all .8s ease;}
+#courses ul li:nth-child(3){ border-left:5px solid blue  ; ransition:all 1s  ease;}
+#courses ul li:nth-child(4){ border-left:5px solid green ; ransition:all .7s ease;}
+
+
+.instruction
+{
+     transition:all .4s ease;
+    padding: 0px !important;
+}
+
+.instruction .header
+{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.instruction.start
+{
+    transition:all .4s linear;
+}
+
+.set
+{
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+     
+}
+.set b
+{
+    
+   
+}
+.course
+{
+    text-align: left;
+    font-size: 17px;
+    font-family: Adobe Myungjo Std M;
+}
+.level
+{
+    text-align: left;
+    font-size: 17px;
+    font-family: Adobe Myungjo Std M;
+}
+
+.start ul li 
+{
+    font-family:serif;
+    margin-bottom: 10px;
+    font-size: 20px;
+    list-style: none;
+}
+
+#setDetails
+{
+    margin: 0px !important;
+    background: white;
+    color:#2c2c2c !important;
+    order:1px solid red;
+}
+#setDetails .loadBack
+{
+    position: absolute;
+    height:100% !important;
+    width:100% !important;
+    order:1px solid red;
+    display:block;
+    background: white;
+    z-index: 8;
+    margin:0px auto;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+}
+#setDetails .loadBack .load
+{
+    display: block;
+    height:50px;
+    width: 50px;
+    border:2px solid gray;
+    position: absolute;
+    border-radius: 50%;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    margin:auto auto;
+    border-top:2px solid white;
+    -webkit-animation: spinload 4s infinite linear;
+    -o-animation: spinload 4s infinite linear;
+    -moz-animation: spinload 4s infinite linear;
+    -ms-animation: spinload 4s infinite linear;
+    animation: spinload 4s infinite linear;
+}
+#setDetails .loadBack .load::after
+{
+    content:'';
+    display: block;
+    height:30px;
+    width: 30px;
+    border:2px solid red;
+    position: absolute;
+    border-radius: 50%;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    margin:auto auto;
+    border-bottom:2px solid white;
+    -webkit-animation: spin .6s infinite ease-in-out;
+    -o-animation: spin .6s infinite ease-in-out;
+    -moz-animation: spin .6s infinite ease-in-out;
+    -ms-animation: spin .6s infinite ease-in-out;
+    animation: spin .6s infinite ease-in-out;
+}
+
+@keyframes spinload
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+	50%
+	{
+
+		transform:rotate(360deg);
+	}
+    100%
+	{
+		transform:rotate(0deg);
+	}
+
+	
+}
+@-moz-keyframes spinload
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+	50%
+	{
+
+		transform:rotate(360deg);
+	}
+    100%
+	{
+		transform:rotate(0deg);
+	}
+
+	
+}
+@-o-keyframes spinload
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+	50%
+	{
+
+		transform:rotate(360deg);
+	}
+    100%
+	{
+		transform:rotate(0deg);
+	}
+
+	
+}
+@-ms-keyframes spinload
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+	50%
+	{
+
+		transform:rotate(360deg);
+	}
+    100%
+	{
+		transform:rotate(0deg);
+	}
+
+	
+}
+@-webkit-keyframes spinload
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+	50%
+	{
+
+		transform:rotate(360deg);
+	}
+    100%
+	{
+		transform:rotate(0deg);
+	}
+
+	
+}
+@keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+     
+}
+@-moz-keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+     
+}
+@-webkit-keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+     
+}
+@-o-keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+     
+}
+@-ms-keyframes spin
+{
+	0%
+	{
+		transform:rotate(0deg);
+	}
+	100%
+	{
+
+		transform:rotate(360deg);
+	}
+     
+}
+.btn-test
+{
+    width: 100px;
+    border:1px solid white;
+    padding: 10px;
+    color:green;
+    font-weight: bold;
+    background: transparent;
+}
+.btn-bd
+{
+    order:1px solid #4a5c77 ;
+    box-shadow: 0px 0px 2px #4a5c77;
+}
+#controlls
+{
+    margin-top:40px;
+}
+#backLoader
+{
+    position: absolute;
+    top:80%;
+}
+#footer
+{
+    background: #081b39;
+    font-family:cursive;
+    color:white;
+    padding:2px;
+}
+#footer b span
+{
+    font-family: sans-serif;
+}

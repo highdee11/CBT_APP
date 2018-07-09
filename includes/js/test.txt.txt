@@ -1,0 +1,115 @@
+Integer Software Development Self-Study Test
+Test ends 5th of August 2017
+*Required
+Email address *
+
+highdee.ai@gmail.com
+In your own understanding, what is programming?
+
+Programming is a way of giving the computer a set of instructions to complete a particular task.
+What is the range function in python used for?
+
+Range function in python is used to produce sequence of integer values from a specific number to the other .
+Using Python, write a function that accepts a String argument and prints the reverse of the String. E.g the reverse of “reverse” should be “esrever”.
+
+def reverse(arg):
+    strLen=len(arg)
+    reversed=''
+    for d in range(1,len(arg)+1):
+        index=int('-'+str(d))
+        reversed+=arg[index]
+    return reversed
+
+Using Python, write a function that accepts a String argument and prints the String converted to uppercase.
+
+def reverse(str):
+   return str.upper()
+
+What do you understand by function invocation?
+
+Function invocation is calling a function with the name and parenthesis after.
+Write a program in python that accepts a number between 0-9 as argument. This function should then return the word representation of the number.
+
+def wordRepresentation(numb):
+    dic={0:"Zero",1:"One",2:"Two",3:"Three",4:"Four",5:"Five",6:"Six",7:"Seven",8:"Eight",9:"Nine"}
+    if numb in dic.keys(): #making sure numb is in between 0-9
+        return dic[numb]
+
+Why do you think algorithm is important?
+
+Algorithm is important in computer programming because, your program's behaviour depends on how your algorithm is structured .
+Algorithms are just like the steps of instructions given to the computer to follow
+so if a step is missing or placed before its time,it can affect your entire program.
+What is the difference between the List data structure and Set data structure in Python?
+
+A list data structure can allow multiple elements of thesame values. WHILE
+A set data structure will remove any element that has a values that is thesame with any of the one that is already in the set.
+Example:  list=[23,44,23,23,10] => [23,44,23,23,10] i.e Nothing changed.
+  set={23,44,23,23,10}=>{23,44,10}
+What will be the output of this code snippet?print “I love programming”[1:-5]
+
+ love progra
+Explain encapsulation in your own words.
+
+Encapsulation is a way of hidding data or a way of limitting the access that a user has over a particular object.
+Write a function in Python that takes an argument and returns the factorial of that number.
+
+def factorial(numb):
+    if str(numb).isdigit(): #making sure numb is a digit
+      fact=1
+      for digit in range(1,numb+1):
+        fact*=digit
+      return fact
+What are the sorting algorithms you’ve learnt?
+
+selection sort
+bubble sort
+insertion sort
+merge sort
+quick  sort
+Create a class RECTANGLE (in Python), this class should define a constructor that initializes two properties: length and breadth. This class should also have the following methods:- setLength(length) ------->This can be used to set the length property of the object.	getLength() ------> This can be used to retrieve the length of the object.	setBreadth(breadth) ----- This can be used to set the breadth property of the object. getBreadth() -------> This can be used to get the breadth property of the object.	calculateArea() -----> This will calculate and return the area of the rectangle object.	printArea() ------> This will calculate and print the area of the rectangle object
+
+class RECTANGLE():
+    def __init__(self):
+        self.length=0
+        self.breadth=0
+
+    def setLength(self,ln):
+        self.length=ln
+
+    def getLength(self):
+        return self.length
+
+    def setBreadth(self,bth):
+        self.breadth=bth
+
+    def getBreadth(self):
+        return self.breadth
+
+    def calculateArea(self):
+        return self.length * self.breadth
+
+    def printArea(self):
+        print(self.length * self.breadth)
+
+Write a function fizzbuzz , this function should take a number as an argument. The function should return “fizz” if the number is divisible by 3, but should return “buzz” if divisible by 5. If divisible by both 3 and 5, it should return “fizzbuzz”.
+
+
+def fizzbuzz(numb):
+    if str(numb).isdigit(): #checking if numb is a digit or not
+        divBy3=numb%3
+        divBy5=numb%5
+        if divBy3 is 0 and divBy5 is not 0:
+            return "fizz"
+        elif divBy5 is 0 and divBy3 is not 0:
+            return "buzz"
+        elif divBy5 is 0 and divBy3 is 0:
+            return "fizzbuzz"
+    else:
+        return "argument must be a number."
+
+
+Why would you like to be a software developer?
+
+I would like to be a Software engineer because i am passionate about solving problems in my community using Information technology , i think out of the box to solve problems and this is one of the features of a  good software developer.
+A copy of your responses will be emailed to the address that you provided.
